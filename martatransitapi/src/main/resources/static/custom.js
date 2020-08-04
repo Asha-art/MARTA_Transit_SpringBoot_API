@@ -16,6 +16,16 @@ function initMap() {
         lng: parseFloat(busLocations[i].LONGITUDE),
       },
       map: map,
+      icon: {
+        url:
+          "https://icon-library.com/images/google-maps-bus-icon/google-maps-bus-icon-14.jpg",
+        scaledSize: new google.maps.Size(40, 40), // pixels
+      },
+      title: "Bus Stop",
     });
   }
+
+  // change pin to bus icon and show user icon
+
+  //*****//
 }
